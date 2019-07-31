@@ -1,0 +1,17 @@
+h1{
+    font-size: 50pt;
+    margin: 60px 0px;
+    font-family: Blonde;
+}
+#page-content p{
+    font-size: 13pt;
+    text-align: justify;
+}
+@media (min-width: 992px) {
+    #page-content img{
+        padding: 0px 10%;
+    }
+    h1{
+        font-size: 75pt;
+}
+}

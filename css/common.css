@@ -1,0 +1,402 @@
+/* Fonts */
+
+@font-face {
+    font-family: Rukola;
+    src: url(../font/iCiel-Rukola.otf);
+}
+@font-face {
+    font-family: Michael;
+    src: url(../font/VL-Michael.otf);
+}
+@font-face {
+    font-family: Blonde;
+    src: url(../font/FS-BlondeScript-Regular.otf);
+}
+
+/* Animation */
+
+@keyframes wave {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-50%)}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+body{
+    font-family: 'Roboto', serif;
+    font-size: 12pt;    
+}
+
+#kontainer-full {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.kontainer{
+    width: 100%;
+    padding: 0px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#topbar-bg{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 100px;
+    z-index: 100;
+}#topbar-bb, #topbar-tb{
+    background: url("../img/common/wave-shadow.svg");
+}
+#footer-bb, #footer-tb{
+    background: url("../img/common/wave.svg");
+}
+#topbar-bb, #topbar-tb, #footer-bb, #footer-tb {
+    position: absolute;
+    width: 200%;
+    height: 100px;
+    background-repeat: repeat no-repeat;
+    background-position: 0 top;
+    transform-origin: center top;
+    background-size: 50% 100%;
+}
+
+#topbar-bb, #footer-bb{
+    z-index: 111;
+    opacity: 1;
+    animation: wave 5s linear infinite;
+}
+#topbar-tb, #footer-tb{
+    z-index: 112;
+    opacity: 0.75;
+    animation: wave 10s linear infinite;
+}
+
+.navbar-brand{
+    z-index: 101;
+}
+#navbar1{
+    background-color: #12b1eb;
+    position: absolute;
+    left: 0px;
+    top:80px;
+    padding: 30px;
+    border-radius: 0px 0px 10px     0px;
+    width: auto;
+    overflow: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    z-index: 99;
+    transition: all 0.3s;
+    transition-timing-function: ease-out;
+    
+}
+.nav-link{
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin: 0px 7.5px 7.5px 7.5px;
+    cursor: pointer;
+}
+.nav-item:hover .nav-link{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    transform: scale(1.05);
+}
+.navbar-dark .navbar-nav .nav-link{
+    padding: 10px;
+    color: rgba(255,255,255,0.75);
+}
+.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover{
+    color:white;
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    background-color: rgba(255,255,255,0.1);
+}
+.dropdown-menu{
+    min-width: auto;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+}
+.dropdown-item{
+    padding: 10px;
+    width: auto;
+    color: #12b1eb;
+}
+.dropdown-item:hover{
+    background-color: #12b1eb;
+    color: white;
+}
+.dropdown-menu .dropdown-toggle{
+    color: #12b1eb;
+}
+.dropdown-item:hover .dropdown-toggle{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dropdown-toggle .dropdown-item:hover{
+    color: white;
+    text-decoration: none;
+}
+.navbar-light a{
+    color: white;
+}
+.dropdown-submenu{
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    margin-top:7.5px;
+}
+#language{
+    margin-top: 15px;
+}
+.vi{
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    transition: all 0.3s;
+    font-size: 12px;
+    margin: 0px;
+    float: right;
+}
+.en{
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    transition: all 0.3s;
+    font-size: 12px;
+    margin: 0px;
+    float: right;
+}
+.vi:hover, .en:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    color: white;
+}
+.vi.active{
+    background-color: white;
+    color: #12b1eb;
+}
+.navbar-toggler{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar-dark .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
+.navbar-toggler{
+    z-index: 101;
+}
+#phones{
+    position: fixed;
+    width: 100%;
+    background-color: #12b1eb;
+    height: auto;
+    bottom: 0px;
+    margin: 0px;
+    z-index: 100;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+}
+#phones a{
+    padding: 7.5px;
+    color: white;
+}
+#phones a:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.25);
+    transition: all 0.3s;
+}
+#phones img{
+    margin-right: 7.5px;
+    height: 25px;
+}
+
+/* COMMON PAGE CONTENT FORMAT */
+
+#page-content{
+    min-height: 100vh;
+    padding-top: 110px;
+    padding-bottom: 60px;
+    color: #444444;
+}
+#page-content .img-fw{
+    margin-top: 30px;
+}
+#page-content .img-descript{
+    padding: 15px 0px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    padding: 30px 0px 40px 0px;
+    background-color: #12b1eb;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+#footer-wave{
+    position: absolute;
+    overflow: hidden;
+    top: -12px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    height: 100px;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+footer ul{
+    padding: 0px;
+    margin-bottom: 30px;
+}
+footer .col-auto{
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    margin: 7.5px;
+}
+footer ul li a{
+    padding: 7.5px;
+    color: white;
+    font-size: 14pt;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+footer ul li a:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    transform: scale(1.05);
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    margin-bottom: 0;
+}
+footer .col-md-7{
+    font-size: 14pt;
+    margin-bottom: 30px;
+}
+footer .col-md-7 b{
+    font-weight: 400;
+}
+footer .col-md-7 p{font-weight: 300;}
+#botlogo{
+    width: 30%;
+    margin: 0px 35% 30px 35%; 
+}
+footer input{
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:white;
+    color: #12b1eb;
+    transition: all 0.3s;
+}
+footer input:hover{
+    background-color: white;
+}
+footer input:focus{
+    background-color:white;
+}
+footer input:visited{
+    background-color:white;
+}
+::placeholder{
+    color: #12b1eb;
+    opacity: 0.75;
+}
+footer button img{
+    width: 30px;
+}
+footer button{
+    margin-top: 15px;
+    border: none;
+    background-color: white;
+    padding: 12px 12px 8px 8px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin-left: -27.5px;
+}
+footer button:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    transition: all 0.3s;
+    transform: scale(1.05);
+    opacity: 1; 
+}
+#copyright{
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    padding: 7.5px;
+    margin-top: 30px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #botlogo{
+        margin-left: 0px;
+    }
+    footer .col-md-7{
+        margin-bottom: 0px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar{
+        padding: 10px 30px;
+    }
+    #page-content{
+        padding-top: 125px;
+    }
+    #page-content .img-fw{
+        padding: 0px 10%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #navbar1{
+        background-color: #12b1eb;
+        position: static;
+        padding: 0px;
+        border-radius: 0px;
+        overflow: visible;
+        z-index: 101;
+        box-shadow: none;
+    }
+    
+    .dropdown-menu{
+        min-width: auto;
+        border: none;
+        border-radius: 10px;
+        margin-left: 7.5px;
+        margin-top: 0px;
+    }
+    
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -8px;
+    }
+    #language{
+        margin-top: 5px;
+    }
+    .vi, .en{
+        float: left;
+    }
+}

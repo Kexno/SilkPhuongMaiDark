@@ -1,0 +1,96 @@
+#wplugin{
+    margin-bottom: 30px;
+}
+#wplugin a{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-color: #12b1eb;
+    height: 50vh;
+    width: 100%;
+}
+#evaluation{
+    max-width: 768px;
+}
+#evaluation b{
+    font-size: 11pt;
+    margin-bottom: 7.5px;
+}
+#evaluation span{
+    color: #12b1eb;
+}
+
+/* RATING */
+
+
+.rate {
+    float: right;
+    height: 40px;
+    padding-left: 15px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:20px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #12b1eb;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #12b1eb;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #12b1eb;
+}
+
+/* COMMENT */
+
+textarea{
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(18, 177, 235,0.1);
+    height: auto;
+    min-height: 200px;
+    color: #444444;
+}
+::placeholder{
+    color: #12b1eb;
+}
+#cmt-submit img{
+    width: 30px;
+}
+#cmt-submit{
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(18, 177, 235,0.1);
+    padding: 12px 12px 8px 8px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin-left: -27.5px;
+    height: 50px;
+}
+#cmt-submit:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    transition: all 0.3s;
+    transform: scale(1.05);
+    opacity: 1; 
+}
