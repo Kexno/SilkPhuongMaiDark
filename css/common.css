@@ -74,10 +74,10 @@ body{
 #wb{
     position: fixed;
     right: 0;
-    height: 35%;
+    height: 30%;
     opacity: 0.4;
-    right: -25vh;
-    top: -1vh;
+    right: -18vh;
+    top: 2vh;
     z-index: 1000;
     transform-origin: top right;
     animation: wb-waving 12s ease-in-out 0s infinite;
@@ -90,8 +90,10 @@ body{
     right: 0;
     top: 0;
     margin: 0;
-    height: 100px;
+    height: 86px;
     z-index: 100;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    background-color: #12b1eb;
 }#topbar-bb, #topbar-tb{
     background: url("../img/common/wave-shadow.svg");
 }
@@ -118,7 +120,6 @@ body{
     opacity: 0.75;
     animation: wave 10s linear infinite;
 }
-
 .navbar-brand{
     z-index: 101;
 }
