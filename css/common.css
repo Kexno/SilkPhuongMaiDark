@@ -415,6 +415,9 @@ footer button:hover{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .navbar-nav{
+        margin-top: 5px;
+    }
     #navbar1{
         background-color: #12b1eb;
         position: static;
@@ -439,7 +442,7 @@ footer button:hover{
         margin-top: -8px;
     }
     #language{
-        margin-top: 5px;
+        margin-top: 0px;
     }
     .vi, .en{
         float: left;
