@@ -85,7 +85,7 @@ p{text-align: justify;}
     margin: 0;
     height: 100px;
     transform: rotate(180deg);
-    z-index: -1;
+    z-index: -1000;
 }
 .light-bb, .light-tb{
     background: url("../img/common/wave-white.svg");

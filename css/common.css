@@ -16,8 +16,18 @@
 /* Animation */
 
 @keyframes wave {
-    0% {transform: translateX(0)}
-    100% {transform: translateX(-50%)}
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-50%);}
+}
+@keyframes wb-waving{
+    0% {transform: rotateZ(0) rotateY(0);}
+    50% {transform: rotateZ(-4deg) rotateY(20deg);}
+    100% {transform: rotateZ(0) rotateY(0);}
+}
+@keyframes curtain{
+    0% {transform: rotate(1deg);}
+    50% {transform: rotate(-2deg);}
+    100% {transform: rotate(1deg);}
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -39,6 +49,40 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#curtain{
+    height: 100%;
+    width: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+#cb, #cf{
+    position: absolute;
+    height: 100%;
+    opacity: 0.25;
+    left: -7.9231vh;
+    transform-origin: top center;
+}
+#cb{
+    animation: curtain 12s ease-in-out 0s infinite;
+}
+#cf{
+    animation: curtain 12s ease-in-out 0.5s infinite;
+}
+#wb{
+    position: fixed;
+    right: 0;
+    height: 35%;
+    opacity: 0.4;
+    right: -25vh;
+    top: -1vh;
+    z-index: 1000;
+    transform-origin: top right;
+    animation: wb-waving 12s ease-in-out 0s infinite;
+}
+
 #topbar-bg{
     overflow: hidden;
     position: absolute;
