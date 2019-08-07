@@ -7,14 +7,16 @@
 
 #banner{
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-image: url("../img/home.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0;
+    margin: 86px 0px 0px 0px;
+    padding-bottom: 86px;
 }
 #banner img{
-    height: 50%;
+    height: 75%;
+    margin-top: 43px;
 }
 .page-light{
     position: relative;
@@ -170,7 +172,16 @@ p{text-align: justify;}
 .people{text-align: center;}
 
 @media (min-width: 768px) {
-    
+    #banner{
+        height: 100%;
+    }
+    #banner img{
+        height: 50%;
+        margin-top: 0px;
+    }
+    .page-light{
+        margin-top: -86px;
+    }
 }
 
 @media (min-width: 992px) {
