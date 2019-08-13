@@ -94,7 +94,7 @@
     padding-bottom: 7.5px;
     transition-timing-function: ease-out;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.40);
     overflow: hidden;
 }
 .item-box:hover .thumb{
@@ -126,7 +126,7 @@
 .thumb a{
     display: block;
     padding: 7.5px;
-    background-color: #11161d;
+    background-color: rgba(17, 22, 29, 0.9);
     transition: all 0.3s;
     transition-timing-function: ease-out;
 }
@@ -161,7 +161,7 @@
     z-index: 100;
     border-radius: 50% 0 0 50%;
     padding: 5px;
-    background-color: rgba(18, 177, 235,0.75);
+    background-color: rgba(42, 166, 211, 0.75);
     border: none;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
 }
@@ -177,13 +177,13 @@
     z-index: 100;
     border-radius: 50% 0 0 50%;
     padding: 5px;
-    background-color: #12b1eb;
+    background-color: #2aa6d3;
     border: none;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
     opacity: 1;
 }
 .modal.right{
-    background-color: rgba(8, 62, 87, 0.75);
+    background-color: rgba(15, 19, 25, 0.75);
 }
 .modal-content{
     border: none;
@@ -191,6 +191,7 @@
     height: 100vh;
     position: relative;
     overflow: auto;
+    background-color: #0f1319;
 }
 #msidebar{
     width: auto;
