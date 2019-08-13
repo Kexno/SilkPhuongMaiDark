@@ -87,7 +87,7 @@ body{
 #cb, #cf{
     position: absolute;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.075;
     left: -7.9231vh;
     transform-origin: top center;
 }
