@@ -21,9 +21,9 @@
     100% {transform: rotateZ(0) rotateY(0);}
 }
 @keyframes curtain{
-    0% {transform: rotate(1deg);}
+    0% {transform: rotate(2deg);}
     50% {transform: rotate(-2deg);}
-    100% {transform: rotate(1deg);}
+    100% {transform: rotate(2deg);}
 }
 
 /* COLOR & STYLE */
@@ -87,7 +87,7 @@ body{
 #cb, #cf{
     position: absolute;
     height: 100%;
-    opacity: 0.075;
+    opacity: 0.12;
     left: -7.9231vh;
     transform-origin: top center;
 }
@@ -101,7 +101,7 @@ body{
     position: fixed;
     right: 0;
     height: 30%;
-    opacity: 0.2;
+    opacity: 0.3;
     right: -18vh;
     top: 2vh;
     z-index: 1000;
@@ -146,10 +146,11 @@ body{
 }
 .navbar-dark .navbar-nav .nav-link{
     padding: 10px;
-    color: rgb(42, 166, 211, 0.4);
+    color: rgb(42, 166, 211, 0.6);
 }
 .navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover{
-    color: rgb(42, 166, 211, 0.6);
+    color: rgb(42, 166, 211, 0.7);
+    background-color: #11161d;
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -287,10 +288,17 @@ footer .col-auto{
 }
 footer ul li a{
     padding: 7.5px;
-    color: #f7fbfd;
     font-size: 14pt;
     border-radius: 10px;
     transition: all 0.3s;
+    transform: scale(1);
+}
+footer ul li a:hover{
+    color: rgba(247, 251, 253, 0.9);
+    background-color: #11161d;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+    transform: scale(1.05);
 }
 footer p{
     margin-bottom: 0;

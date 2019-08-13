@@ -61,7 +61,6 @@ h3{
 p{text-align: justify;}
 .itembc{
     padding-bottom: 30px;
-    color: rgba(247, 251, 253, 0.9);
 }
 .itembc-box{
     transition: all 0.3s;
@@ -69,7 +68,6 @@ p{text-align: justify;}
     transition-timing-function: ease-out;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #50b7dc;
 }
 .thumbbc{
     position: relative;
@@ -84,7 +82,7 @@ p{text-align: justify;}
     font-weight: 500;
     font-size: 15pt;
     transition: all 0.3s;
-    color: rgba(247, 251, 253, 0.9);
+    color: rgba(247, 251, 253, 0.6);
 }
 .itembc-name:hover{
     text-decoration: none;
@@ -97,6 +95,7 @@ p{text-align: justify;}
     font-size: 10pt;
     overflow: hidden;
     height: 56px;
+    color: rgba(247, 251, 253, 0.6);
 }
 .thumbkh{    
     position: relative;
