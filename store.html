@@ -26,7 +26,7 @@
 
         
     </head>
-    <body>  
+    <body class="darkbg">  
         <!-- COMMON FIXED OBJECT -->
         
         <div class="kontainer-full">
@@ -42,38 +42,38 @@
             <!-- NAVIGATOR BAR -->
             
             <nav class="navbar navbar-expand-xl fixed-top navbar-dark">
-                <!-- navbar background -->
-            <div id="topbar-bg"></div>
+                <!--NAVBAR BACKGROUND-->
+            <div id="topbar-bg" class="darkbg shadowdark"></div>
                 <!-- logo -->
-                <a class="navbar-brand" href="index.html"><img id="logo"  src="img/common/logo-slogan-wv.svg"></a>
+                <a class="navbar-brand" href="index.html"><img id="logo"  src="img/common/logo-slogan-bh.svg"></a>
                 <!-- navbar toggler -->
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- menu -->
                 <div class="collapse navbar-collapse" id="navbar1">
-                    <ul class="navbar-nav d-flex justify-content-center">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">TRANG CHỦ</a>
+                            <a class="nav-link buttonds" href="index.html">TRANG CHỦ</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle buttonds" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 GIỚI THIỆU
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-menu darkbg shadowdark" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="about.html">Tổng quan</a>
                                 <a class="dropdown-item" href="aboutus.html">Về chúng tôi</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="product.html" data-toggle="dropdown" class="nav-link dropdown-toggle active">SẢN PHẨM</a>
-                            <ul class="dropdown-menu">
+                            <a href="product.html" data-toggle="dropdown" class="nav-link dropdown-toggle active buttonds">SẢN PHẨM</a>
+                            <ul class="dropdown-menu darkbg shadowdark">
                                 <li>
                                     <a class="dropdown-item" href="product.html">Tổng quan</a>
                                 </li>
                                 <li class="dropdown-item dropdown-submenu">
                                 <a data-toggle="dropdown collapse" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Phân loại một</a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu darkbg shadow">
                                         <li>
                                             <a  class="dropdown-item" href="store.html">Phân loại con một</a>
                                         </li>
@@ -84,7 +84,7 @@
                                 </li>
                                 <li class="dropdown-item dropdown-submenu">
                                     <a data-toggle="dropdown" class="dropdown-toggle">Phân loại hai</a>
-                                   <ul class="dropdown-menu">
+                                   <ul class="dropdown-menu darkbg shadow">
                                         <li>
                                             <a  class="dropdown-item" href="store.html">Phân loại con một</a>
                                         </li>
@@ -96,10 +96,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="news.html">TIN TỨC</a>
+                            <a class="nav-link buttonds" href="news.html">TIN TỨC</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+                            <a class="nav-link buttonds" href="contact.html">LIÊN HỆ</a>
                         </li>
                     </ul>
                     <!-- language -->
@@ -118,21 +118,12 @@
             
             <!-- phone numbers-->
             
-            <div id="phones" class="row">
-                <div class="col"></div>
-                    <a class="col-auto" href="tel:+84-123-456-789">
-                        <img id="call" src="img/common/call.svg">
-                        0123 456 789
-                    </a>
-                <div class="col"></div>
+            <div id="phones" class="row justify-content-center">
+                <a class="col-auto bluebg shadowlight" href="tel:+84-123-456-789">
+                    <img id="call" src="img/common/call.svg">
+                    Hotline: 0123 456 789
+                </a>
             </div>
-            
-            <!-- open sidebar button -->
-            
-            <button id="open-sidebar" type="button" data-toggle="modal" data-target="#sidebar-right" class="btn btn-primary navbar-btn pull-left d-lg-none">
-                <img src="img/common/left.svg">    
-            </button>
-            
         </div>
 
         <!-- PAGE CONTENT -->
@@ -143,13 +134,13 @@
                 
                 <!-- CATEGORY SIDEBAR -->
                 
-                <div id="sidebar" class="col-lg-auto d-none d-lg-block">
-                    <h5>Danh mục sản phẩm</h6>
+                <div id="sidebar" class="col-lg-auto d-none d-lg-block textmedium">
+                    <h5>Danh mục sản phẩm</h5>
                     <ul class="list">
                         <li>
                             <div class="category">Danh mục 1</div>
                             <ul>
-                                <li><a href="#">Danh mục con</a></li>
+                                <li><a href="#" class="text">Danh mục con</a></li>
                                 <li><a href="#">Danh mục con</a></li>
                                 <li><a href="#">Danh mục con</a></li>
                             </ul>
@@ -168,25 +159,27 @@
                     </ul>
                         
                     <!-- price filter -->
+                    
                     <div id="ranger">
                         <h5>Giá</h5>
                         <input type="range" class="slider" min="" max="">
                     </div>
+                    
                     <!-- tags -->
                     
                     <h5>Tag sản phẩm</h5>         
                     <div id="tags">
-                        <a href="#">tag sản phẩm</a>
-                        <a href="#">tag</a>
-                        <a href="#">sản phẩm</a>
-                        <a href="#">product tag</a>
+                        <a href="#" class="bluebg">tag sản phẩm</a>
+                        <a href="#" class="bluebg">tag</a>
+                        <a href="#" class="bluebg">sản phẩm</a>
+                        <a href="#" class="bluebg">product tag</a>
                     </div>
                 </div>
                 
-                <div id="items-area" class="col-12 col-lg">
+                <div id="items-area" class="col-12 col-lg textmedium">
                     <div class="row">
                         <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -206,7 +199,7 @@
                             </div>
                         </div>
                         <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -226,7 +219,7 @@
                             </div>
                         </div>
                         <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -245,8 +238,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -265,8 +258,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -285,8 +278,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -305,8 +298,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -325,8 +318,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			         <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -345,8 +338,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -365,8 +358,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -385,8 +378,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -405,8 +398,8 @@
                             </p>
                             </div>
                         </div>
-			<div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="item-box">
+			             <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="item-box buttonds">
                             <div class="thumb">
                                 <img src="img/common/img1.svg">
                                 <img class="cover-img" src="img/common/img2.svg">
@@ -428,7 +421,7 @@
                     </div>    
                 </div>
             </div>
-            <div class="row">
+            <div class="row textmedium">
                 <h4 class="col-12">Info...</h4>
                 <p class="col-12">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -496,22 +489,18 @@
         
         <!-- FOOTER -->
         
-        <footer>
-            <div id="footer-wave">
-                <div id="footer-bb"></div>
-                <div id="footer-tb"></div>
-            </div>
-                <div class="kontainer">
+        <footer class="bluebg">
+                <div class="kontainer ">
                     <ul class="d-flex justify-content-center row">
-                        <li class="col-auto"><a href="">Trang chủ</a></li>
-                        <li class="col-auto"><a href="">Giới thiệu</a></li>
-                        <li class="col-auto"><a href="">Sản phẩm</a></li>
-                        <li class="col-auto"><a href="">Tin tức</a></li>
-                        <li class="col-auto"><a href="">Liên hệ</a></li>
+                        <li class="col-auto"><a class="buttonls" href="index.html">Trang chủ</a></li>
+                        <li class="col-auto"><a class="buttonls" href="about.html">Giới thiệu</a></li>
+                        <li class="col-auto"><a class="buttonls" href="product.html">Sản phẩm</a></li>
+                        <li class="col-auto"><a class="buttonls" href="news.html">Tin tức</a></li>
+                        <li class="col-auto"><a class="buttonls" href="contact.html">Liên hệ</a></li>
                     </ul>
                     <div class="row">
                         <div class="col-12 col-md-7">
-                            <a href="index.html" class="col-12"><img id="botlogo" src="img/common/logo-wh.svg"></a>
+                            <a href="index.html" class="col-12"><img id="botlogo" src="img/common/logo-wv.svg"></a>
                             <p><b>Địa chỉ:&nbsp;</b>Pamatra, QL1K, Linh Xuân, Thủ Đức, HCM, VN</p>
                             <p><b>Văn phòng đại diện:&nbsp;</b>Pamatra, QL1K, Linh Xuân, Thủ Đức, HCM, VN</p>
                             <p><b>Hotline:&nbsp;</b>0123 456 789</p>
@@ -524,7 +513,7 @@
                             <form action="" class="">
                                 <input class="col-12" type="text" name="fullname" placeholder="Họ & tên . . .">
                                 <input class="col-12" type="text" name="phonenumber" placeholder="Số điện thoại . . .">
-                                <button type="submit"><img src="img/common/send.svg"></button>
+                                <button type="submit" class="buttonls"><img src="img/common/send.svg"></button>
                             </form>
                         </div>
                     </div>

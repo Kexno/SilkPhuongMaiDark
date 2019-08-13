@@ -66,13 +66,13 @@ textarea{
     width: 100%;
     border-radius: 10px;
     border: none;
-    background-color: rgba(18, 177, 235,0.1);
+    background-color: #11161d;
     height: auto;
     min-height: 200px;
-    color: #444444;
+    color: rgba(247, 251, 253, 0.6);
 }
 ::placeholder{
-    color: #12b1eb;
+    color: #1374a1;
 }
 #cmt-submit img{
     width: 30px;
@@ -80,7 +80,7 @@ textarea{
 #cmt-submit{
     margin-top: 15px;
     border: none;
-    background-color: rgba(18, 177, 235,0.1);
+    background-color: #11161d;
     padding: 12px 12px 8px 8px;
     border-radius: 50%;
     position: relative;

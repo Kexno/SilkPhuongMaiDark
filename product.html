@@ -11,6 +11,7 @@
         
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="css/common.css" rel="stylesheet" type="text/css">
+        <link href="css/home.css" rel="stylesheet" type="text/css">
 		<link href="css/store.css" rel="stylesheet" type="text/css">
         
         <link href="css/product.css" rel="stylesheet" type="text/css">
@@ -28,52 +29,52 @@
 
         
     </head>
-    <body>  
+    <body class="darkbg">  
         <div class="kontainer-full">
-            
+
             <!-- BACKGROUND DECORATION-->
 
             <div id="curtain">
-                    <img id="cb" src="img/common/curtain-back.svg">
-                    <img id="cf" src="img/common/curtain-front.svg">
-                </div>
-                <img id="wb" src="img/common/white-mulberry.svg">
-                
+                <img id="cb" src="img/common/curtain-back.svg">
+                <img id="cf" src="img/common/curtain-front.svg">
+            </div>
+            <img id="wb" src="img/common/white-mulberry.svg">
+            
             <!-- NAVIGATOR BAR -->
             
             <nav class="navbar navbar-expand-xl fixed-top navbar-dark">
                 <!--NAVBAR BACKGROUND-->
-            <div id="topbar-bg"></div>
+            <div id="topbar-bg" class="darkbg shadowdark"></div>
                 <!-- logo -->
-                <a class="navbar-brand" href="index.html"><img id="logo"  src="img/common/logo-slogan-wv.svg"></a>
+                <a class="navbar-brand" href="index.html"><img id="logo"  src="img/common/logo-slogan-bh.svg"></a>
                 <!-- navbar toggler -->
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- menu -->
                 <div class="collapse navbar-collapse" id="navbar1">
-                    <ul class="navbar-nav d-flex justify-content-center">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">TRANG CHỦ</a>
+                            <a class="nav-link buttonds" href="index.html">TRANG CHỦ</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-togglex" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle buttonds" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 GIỚI THIỆU
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-menu darkbg shadowdark" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="about.html">Tổng quan</a>
                                 <a class="dropdown-item" href="aboutus.html">Về chúng tôi</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="product.html" data-toggle="dropdown" class="nav-link dropdown-toggle active">SẢN PHẨM</a>
-                            <ul class="dropdown-menu">
+                            <a href="product.html" data-toggle="dropdown" class="nav-link active dropdown-toggle buttonds">SẢN PHẨM</a>
+                            <ul class="dropdown-menu darkbg shadowdark">
                                 <li>
                                     <a class="dropdown-item" href="product.html">Tổng quan</a>
                                 </li>
                                 <li class="dropdown-item dropdown-submenu">
                                 <a data-toggle="dropdown collapse" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Phân loại một</a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu darkbg shadow">
                                         <li>
                                             <a  class="dropdown-item" href="store.html">Phân loại con một</a>
                                         </li>
@@ -84,7 +85,7 @@
                                 </li>
                                 <li class="dropdown-item dropdown-submenu">
                                     <a data-toggle="dropdown" class="dropdown-toggle">Phân loại hai</a>
-                                   <ul class="dropdown-menu">
+                                   <ul class="dropdown-menu darkbg shadow">
                                         <li>
                                             <a  class="dropdown-item" href="store.html">Phân loại con một</a>
                                         </li>
@@ -96,10 +97,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="news.html">TIN TỨC</a>
+                            <a class="nav-link buttonds" href="news.html">TIN TỨC</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+                            <a class="nav-link buttonds" href="contact.html">LIÊN HỆ</a>
                         </li>
                     </ul>
                     <!-- language -->
@@ -118,13 +119,11 @@
             
             <!-- phone numbers-->
             
-            <div id="phones" class="row">
-                <div class="col"></div>
-                    <a class="col-auto" href="tel:+84-123-456-789">
-                        <img id="call" src="img/common/call.svg">
-                        0123 456 789
-                    </a>
-                <div class="col"></div>
+            <div id="phones" class="row justify-content-center">
+                <a class="col-auto bluebg shadowlight" href="tel:+84-123-456-789">
+                    <img id="call" src="img/common/call.svg">
+                    Hotline: 0123 456 789
+                </a>
             </div>
         </div>
 
@@ -151,9 +150,9 @@
                 <h3 class="col-12">Lụa Tơ Tằm, đẳng cấp của loại vải hữu cơ duy nhất trên đời</h3>
                 <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <p class="col-12">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p class="col-12">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <p class="col-12" style="margin-bottom: 60px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="category">
+                    <div class="category buttonds">
                         <img src="img/common/img1.svg">
                         <div class="overlay"></div>
                         <div class="content">
@@ -165,7 +164,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="category">
+                    <div class="category buttonds">
                         <img src="img/common/img2.svg">
                         <div class="overlay"></div>
                         <div class="content">
@@ -177,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="category">
+                    <div class="category buttonds">
                         <img src="img/common/img3.svg">
                         <div class="overlay"></div>
                         <div class="content">
@@ -208,7 +207,7 @@
             <div class="row">
                 <h3 class="col-12">Sản phẩm nổi bật</h3>
                 <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="item-box">
+                    <div class="item-box buttonds">
                     <div class="thumb">
                         <img src="img/common/img1.svg">
                         <img class="cover-img" src="img/common/img2.svg">
@@ -228,7 +227,7 @@
                     </div>
                 </div>
                 <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="item-box">
+                    <div class="item-box buttonds">
                     <div class="thumb">
                         <img src="img/common/img1.svg">
                         <img class="cover-img" src="img/common/img2.svg">
@@ -248,7 +247,7 @@
                     </div>
                 </div>
                 <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="item-box">
+                    <div class="item-box buttonds">
                     <div class="thumb">
                         <img src="img/common/img1.svg">
                         <img class="cover-img" src="img/common/img2.svg">
@@ -268,7 +267,7 @@
                     </div>
                 </div>
                 <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="item-box">
+                    <div class="item-box buttonds">
                     <div class="thumb">
                         <img src="img/common/img1.svg">
                         <img class="cover-img" src="img/common/img2.svg">
@@ -292,104 +291,77 @@
         
         <!-- newspaper -->
             
-        <div class="container-fluid" id="page-dark">
-            <div id="dark-wave">
-                <div id="dark-bb"></div>
-                <div id="dark-tb"></div>
-            </div>
+        <div class="container-fluid pagepart bluebg textheigh">
             <div class="kontainer">
                 <div class="row">
-                    <h3 class="col-12">Báo chí</h3>
-                    <h1 class="col-12">viết về Silk Phương Mai</h1>
-                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="itembc-box">
-                            <div class="thumbbc">
-                                <a href="#"><img src="img/common/img1.svg"></a>
-                            </div>
-                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
-                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
+                    <h1 class="col-12">Truyền thông nói gì về chúng tôi</h1>
+                    <div class="col-12 col-md-6" style="margin-bottom: 30px;">
+                        <div class="thumbkh">
+                            <img src="img/common/img1.svg">
                         </div>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
                     </div>
-                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="itembc-box">
-                            <div class="thumbbc">
-                                <a href="#"><img src="img/common/img1.svg"></a>
-                            </div>
-                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
-                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
+                    <div class="col-12 col-md-6" style="margin-bottom: 30px;">
+                        <div class="thumbkh">
+                            <img src="img/common/img1.svg">
                         </div>
-                    </div>
-                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="itembc-box">
-                            <div class="thumbbc">
-                                <a href="#"><img src="img/common/img1.svg"></a>
-                            </div>
-                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
-                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
-                        </div>
-                    </div>
-                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="itembc-box">
-                            <div class="thumbbc">
-                                <a href="#"><img src="img/common/img1.svg"></a>
-                            </div>
-                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
-                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
-                        </div>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
                     </div>
                 </div>
                 <div class="row">
-                    <h3 class="col-12">Khách hàng</h3>
-                    <h1 class="col-12">nói gì về chúng tôi</h1>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="thumbkh">
-                            <img src="img/common/img1.svg">
+                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="itembc-box buttonls">
+                            <div class="thumbbc">
+                                <a href="#"><img src="img/common/img1.svg"></a>
+                            </div>
+                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
+                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
                         </div>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <div class="people">Ai đó chia sẻ</div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="thumbkh">
-                            <img src="img/common/img1.svg">
+                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="itembc-box buttonls">
+                            <div class="thumbbc">
+                                <a href="#"><img src="img/common/img1.svg"></a>
+                            </div>
+                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
+                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
                         </div>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <div class="people">Ai đó chia sẻ</div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="thumbkh">
-                            <img src="img/common/img1.svg">
+                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="itembc-box buttonls">
+                            <div class="thumbbc">
+                                <a href="#"><img src="img/common/img1.svg"></a>
+                            </div>
+                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
+                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
                         </div>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <div class="people">Ai đó chia sẻ</div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="thumbkh">
-                            <img src="img/common/img1.svg">
+                    <div class="itembc col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="itembc-box buttonls">
+                            <div class="thumbbc">
+                                <a href="#"><img src="img/common/img1.svg"></a>
+                            </div>
+                            <a href="#" class="itembc-name">Tiêu đề bài viết</a>
+                            <p class="item-descript">Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn. Trích đoạn trích đoạn trích đoạn trích, trích đoạn trích đoạn trích trích đoạn.</p>
                         </div>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <div class="people">Ai đó chia sẻ</div>
                     </div>
                 </div>
             </div>
         </div>
         
             <!-- FOOTER -->
-        <footer>
-            <div id="footer-wave">
-                <div id="footer-bb"></div>
-                <div id="footer-tb"></div>
-            </div>
-                <div class="kontainer">
+        <footer class="bluebg">
+                <div class="kontainer ">
                     <ul class="d-flex justify-content-center row">
-                        <li class="col-auto"><a href="">Trang chủ</a></li>
-                        <li class="col-auto"><a href="">Giới thiệu</a></li>
-                        <li class="col-auto"><a href="">Sản phẩm</a></li>
-                        <li class="col-auto"><a href="">Tin tức</a></li>
-                        <li class="col-auto"><a href="">Liên hệ</a></li>
+                        <li class="col-auto"><a class="buttonls" href="index.html">Trang chủ</a></li>
+                        <li class="col-auto"><a class="buttonls" href="about.html">Giới thiệu</a></li>
+                        <li class="col-auto"><a class="buttonls" href="product.html">Sản phẩm</a></li>
+                        <li class="col-auto"><a class="buttonls" href="news.html">Tin tức</a></li>
+                        <li class="col-auto"><a class="buttonls" href="contact.html">Liên hệ</a></li>
                     </ul>
                     <div class="row">
                         <div class="col-12 col-md-7">
-                            <a href="index.html" class="col-12"><img id="botlogo" src="img/common/logo-wh.svg"></a>
+                            <a href="index.html" class="col-12"><img id="botlogo" src="img/common/logo-wv.svg"></a>
                             <p><b>Địa chỉ:&nbsp;</b>Pamatra, QL1K, Linh Xuân, Thủ Đức, HCM, VN</p>
                             <p><b>Văn phòng đại diện:&nbsp;</b>Pamatra, QL1K, Linh Xuân, Thủ Đức, HCM, VN</p>
                             <p><b>Hotline:&nbsp;</b>0123 456 789</p>
@@ -402,7 +374,7 @@
                             <form action="" class="">
                                 <input class="col-12" type="text" name="fullname" placeholder="Họ & tên . . .">
                                 <input class="col-12" type="text" name="phonenumber" placeholder="Số điện thoại . . .">
-                                <button type="submit"><img src="img/common/send.svg"></button>
+                                <button type="submit" class="buttonls"><img src="img/common/send.svg"></button>
                             </form>
                         </div>
                     </div>

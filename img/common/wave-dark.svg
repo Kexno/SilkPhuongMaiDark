@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -34,12 +34,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
      id="namedview13"
      showgrid="false"
      inkscape:zoom="0.50000001"
-     inkscape:cx="892.12445"
+     inkscape:cx="567.12446"
      inkscape:cy="323.1495"
      inkscape:current-layer="svg11"
      inkscape:snap-page="true"
@@ -48,7 +48,10 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
     <sodipodi:guide
        position="1.1368684e-13,5.0092924"
        orientation="0,1"
@@ -77,7 +80,7 @@
   <path
      d="M 1599.995,85 C 1289,85 1190.102,95.249895 789,94.9999 389,94.9999 289,85 0,85 V 0 h 1600 c 0,0 -0.01,56.001418 -0.01,85 z"
      id="path9"
-     style="fill:#0f7fcd;fill-opacity:1;fill-rule:evenodd;stroke-width:0.99997556"
+     style="fill:#0f1319;fill-opacity:1;fill-rule:evenodd;stroke-width:0.99997556"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccc" />
 </svg>
