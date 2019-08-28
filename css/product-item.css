@@ -1,14 +1,126 @@
-#wplugin{
-    margin-bottom: 30px;
-}
-#wplugin a{
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    background-color: #12b1eb;
-    height: 50vh;
+/* PRODUCT IMG */
+
+.slide{
+    margin-bottom: 135px;
     width: 100%;
 }
+.carousel-item {
+  height: 50vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
+.carousel-indicators{
+    margin: 0px;
+    bottom: -97.5px;
+    overflow-x: auto;
+}
+.carousel-indicators li{
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px 3.75px;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.info{
+    margin-top: 15px;
+}
+.buy{
+    margin-top: 15px;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: none;
+}
+.buy h6, .buy div{
+    text-align: center;
+    margin: 0;
+}
+.buy div{font-size: 10pt;}
+
+/* BUYING FORM */
+
+.modal{
+    background-color: rgba(15, 19, 25, 0.75);
+}
+.modal-dialog{
+    max-width: 800px;
+}
+.modal-content{    
+    border-radius: 10px;
+}
+.modal-body{
+    padding: 3px 15px 15px 15px;
+}
+#buyform h6{
+    margin: 0px;
+}
+#close-form{   
+    background: none;
+    border: none;
+}
+#close-form span{
+    font-size: 30px;
+}
+.modal img{
+    margin-bottom: 15px;
+    max-height: 200px;
+}
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label span {
+  display:inline-block;
+  width:15px;
+  height:15px;
+  margin: 10px 5px -3px 0px;
+  border-radius: 50%;
+  border: 2px solid rgba(247, 251, 253, 0.9);
+  background-color: none;
+  cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+  background-color: white;
+}
+label{
+    margin-right: 15px;
+    font-size: 10pt;
+}
+
+h4, span{color: #2aa6d3;}
+.modal input, .modal textarea{
+    background-color: rgba(255,255,255,0.9);
+    padding: 7.5px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    color: #121d2a;
+}
+.modal input:hover, .modal textarea:hover, .modal input:focus, .modal textarea:focus{
+    background-color: white;
+}
+.modal form button{
+    padding: 7.5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255,255,255,0.9);
+    color: #2aa6d3;
+}
+/* EVALUATION */
+
 #evaluation{
     max-width: 768px;
 }
@@ -61,7 +173,7 @@
 
 /* COMMENT */
 
-textarea{
+#evaluation textarea{
     padding: 15px;
     width: 100%;
     border-radius: 10px;

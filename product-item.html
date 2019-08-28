@@ -129,17 +129,38 @@
         <div class="kontainer" id="page-content">
     
             <div class="row">
-                <div class="col-12 col-md-6" id="wplugin">
-                    <a class="d-flex align-items-center justify-content-center" href="https://vi.wordpress.org/plugins/woo-product-gallery-slider/">
-                        PRODUCT GALLERY SLIDER WORDPRESS PLUGIN
-                        <br>https://vi.wordpress.org/plugins/woo-product-gallery-slider/
-                    </a>
+                <div class="col-12 col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel data-interval="false"">
+                        <ol class="carousel-indicators">
+                            <li style="background-image: url('img/common/img1.svg')" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li style="background-image: url('img/common/img2.svg')" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li style="background-image: url('img/common/img3.svg')" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li style="background-image: url('img/common/img1.svg')" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li style="background-image: url('img/common/img2.svg')" data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active" style="background-image: url('img/common/img1.svg')"></div>
+                            <div class="carousel-item" style="background-image: url('img/common/img2.svg')"></div>
+                            <div class="carousel-item" style="background-image: url('img/common/img3.svg')"></div>
+                            <div class="carousel-item" style="background-image: url('img/common/img1.svg')"></div>
+                            <div class="carousel-item" style="background-image: url('img/common/img2.svg')"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6" id="wplugin">
-                    <a class="d-flex align-items-center justify-content-center" href="https://vi.wordpress.org/plugins/woo-product-gallery-slider/">
-                        PRODUCT GALLERY SLIDER WORDPRESS PLUGIN
-                        <br>https://vi.wordpress.org/plugins/woo-product-gallery-slider/
-                    </a>
+                <div class="col-12 col-md-6">
+                    <div class="row justify-content-center">
+                        <h2 class="col-12">Tên sản phẩm</h2>
+                        <h4 class="col-12 price">1.000.000<span>&nbsp;đ</span></h4>
+                        <p class="col-12 info">
+                            - Chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm  chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm
+                            <br><br>
+                            - Chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm  chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm chi tiết sản phẩm
+                        </p>
+                        <button class="col-auto buy bluebg buttonds" type="button" data-toggle="modal" data-target="#buyform">
+                            <h6 class="textheigh">MUA NGAY</h6>
+                            <div class="textheigh">Gọi điện xác nhận và giao hàng tận nơi</div>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -175,7 +196,7 @@
                 
         </div>
         
-            <!-- FOOTER -->
+        <!-- FOOTER -->
         
         <footer class="darkbg textmedium">
                 <div class="kontainer ">
@@ -209,6 +230,40 @@
                 <div class="d-flex justify-content-center" id="copyright">Copyright Kexno -2019</div>
         </footer>
         
+        <!-- BUY PRODUCT FORM -->
+        
+        <div class="modal fade textheigh" id="buyform" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content bluebg">
+                    <div class="modal-body">
+                        <div class="row">
+                            <h6 class="col align-self-center">ĐẶT MUA TÊN SẢN PHẨM</h6>
+                            <button type="button" id="close-form" class="col-auto" data-dismiss="modal" aria-label="Close">
+                                <span class="textheigh" aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="row">
+                            <img class="col-12 col-sm-4 align-self-center" src="img/common/img1.svg">
+                            <form class="col-12 col-sm-8">
+                                <h6>Thông tin người mua</h6>
+                                <input type="radio" name="sex" id="male" value="male">
+                                <label for="male"><span></span>Nam</label>
+                                <input type="radio" name="sex" id="female" value="female">
+                                <label for="female"><span></span>Nữ</label>
+                                <input type="radio" name="sex" id="other" value="other">
+                                <label for="other"><span></span>Khác</label>
+                                <input class="col-12" type="text" name="" placeholder="Họ & tên . . .">
+                                <input class="col-12" type="text" name="" placeholder="Số điện thoại . . .">
+                                <textarea class="col-12" type="text" name="" placeholder="Địa chỉ nhận hàng . . ."></textarea>
+                                <textarea class="col-12" type="text" name="" placeholder="Ghi chú đơn hàng . . ."></textarea>
+                                <div>Tổng: 1.000.000<span>&nbsp;đ</span></div>
+                                <button type="submit" class="buttonls">ĐẶT HÀNG NGAY</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+          </div>
+        </div>
         
         <!-- JSSCRIPT -->
         
