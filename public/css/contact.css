@@ -1,0 +1,53 @@
+iframe{
+    margin-bottom: 30px;
+}
+#infor{
+    font-size: 16pt;
+}
+#page-content input, textarea{
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(247, 251, 253, 0.9);
+    height: auto;
+    color: rgba(15, 19, 25, 0.6);
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+#page-content input:hover{
+    background-color: #f7fbfd;
+}
+#page-content input:focus{
+    background-color:#f7fbfd;
+}
+#page-content input:visited{
+    background-color:#f7fbfd;
+}
+textarea{
+    min-height: 200px;
+}
+::placeholder{
+    color: rgba(15, 19, 25, 0.5);
+}
+textarea:hover{
+    background-color: #f7fbfd;
+}
+textarea:focus{
+    background-color: #f7fbfd;
+}
+#content-submit img{
+    width: 30px;
+}
+#content-submit{
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(247, 251, 253, 0.9);
+    padding: 12px 12px 8px 8px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin-left: -27.5px;
+    height: 50px;
+    transition: all 0.3s;
+}

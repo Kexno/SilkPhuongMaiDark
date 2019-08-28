@@ -1,0 +1,188 @@
+ERROR - 2019-07-31 10:29:44 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:29:44 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:29:44 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:29:44 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:29:45 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:29:46 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:29:46 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:29:46 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:31:23 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:31:23 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:31:23 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:31:23 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:31:23 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:31:24 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:31:24 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:31:24 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:32:07 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:32:07 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:32:08 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:32:08 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:32:08 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:32:08 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:32:08 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:32:08 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:32:49 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:32:49 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:32:49 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:32:49 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:32:49 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:32:50 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:32:50 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:32:50 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:32:51 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:32:51 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:32:51 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:32:51 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:32:51 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:32:51 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:32:51 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:32:51 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:33:27 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:33:27 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:33:27 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:33:27 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:33:27 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:33:28 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:33:28 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:33:28 --> Severity: Error --> Class 'DebugBar\DebugBar' not found /var/www/tomita-mart/application/libraries/Profiler.php 103
+ERROR - 2019-07-31 10:35:51 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:35:51 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:36:50 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:36:50 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:37:39 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:37:39 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:52:17 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:52:17 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:52:26 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:52:26 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:52:26 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:52:26 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:52:46 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:52:46 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:52:46 --> Severity: Notice --> Uninitialized string offset: 0 /var/www/tomita-mart/application/helpers/data_helper.php 22
+ERROR - 2019-07-31 10:52:46 --> Severity: Notice --> Trying to get property of non-object /var/www/tomita-mart/application/helpers/data_helper.php 22
+ERROR - 2019-07-31 10:52:46 --> Severity: Notice --> Uninitialized string offset: 0 /var/www/tomita-mart/application/helpers/data_helper.php 22
+ERROR - 2019-07-31 10:52:46 --> Severity: Notice --> Trying to get property of non-object /var/www/tomita-mart/application/helpers/data_helper.php 22
+ERROR - 2019-07-31 10:54:22 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:54:22 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:54:29 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:54:29 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 10:54:49 --> Could not find the language line "news"
+ERROR - 2019-07-31 10:54:49 --> Could not find the language line "video"
+ERROR - 2019-07-31 10:54:49 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 10:54:49 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 13:55:21 --> Could not find the language line "news"
+ERROR - 2019-07-31 13:55:21 --> Could not find the language line "video"
+ERROR - 2019-07-31 13:55:21 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 13:55:21 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 13:58:33 --> Could not find the language line "news"
+ERROR - 2019-07-31 13:58:33 --> Could not find the language line "video"
+ERROR - 2019-07-31 13:58:33 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 13:58:33 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 13:58:38 --> Could not find the language line "news"
+ERROR - 2019-07-31 13:58:38 --> Could not find the language line "video"
+ERROR - 2019-07-31 13:58:38 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 13:58:38 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 14:50:33 --> Could not find the language line "news"
+ERROR - 2019-07-31 14:50:33 --> Could not find the language line "video"
+ERROR - 2019-07-31 14:50:33 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 14:50:33 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:35:22 --> Could not find the language line "news"
+ERROR - 2019-07-31 15:35:22 --> Could not find the language line "video"
+ERROR - 2019-07-31 15:35:23 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:35:23 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:35:30 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:35:30 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:40:28 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:40:28 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:40:51 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:40:51 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:44:13 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:44:13 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:45:05 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:45:05 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:45:48 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:45:48 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:46:01 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:46:01 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 15:48:21 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 15:48:21 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:03 --> Could not find the language line "news"
+ERROR - 2019-07-31 16:11:03 --> Could not find the language line "video"
+ERROR - 2019-07-31 16:11:04 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:04 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:08 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:08 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:10 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:10 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:15 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:15 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:19 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:19 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:22 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:22 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:24 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:24 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:31 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:31 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:11:32 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:11:32 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:12:08 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:12:08 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:12:20 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:12:20 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:12:20 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:12:20 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:12:28 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:12:28 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:12:36 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:12:36 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:12:56 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:12:56 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:13:12 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:13:12 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:13:50 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:13:50 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:14:25 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:14:25 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:14:49 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:14:49 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:15:20 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:15:20 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:16:01 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:16:01 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:16:17 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:16:17 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:16:42 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:16:42 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:16:58 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:16:58 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:18:59 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:18:59 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:19:03 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:19:03 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 16:19:27 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 16:19:27 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 17:13:36 --> Could not find the language line "news"
+ERROR - 2019-07-31 17:13:36 --> Could not find the language line "video"
+ERROR - 2019-07-31 17:13:36 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 17:13:36 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 17:17:10 --> Could not find the language line "news"
+ERROR - 2019-07-31 17:17:10 --> Could not find the language line "video"
+ERROR - 2019-07-31 17:17:10 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 17:17:10 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 17:17:11 --> Could not find the language line "news"
+ERROR - 2019-07-31 17:17:11 --> Could not find the language line "video"
+ERROR - 2019-07-31 17:17:11 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 17:17:11 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 17:17:17 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 17:17:17 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 17:17:20 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 17:17:20 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 17:17:23 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 17:17:23 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-07-31 17:22:57 --> Could not find the language line "news"
+ERROR - 2019-07-31 17:22:57 --> Could not find the language line "video"
+ERROR - 2019-07-31 17:22:57 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-07-31 17:22:57 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34

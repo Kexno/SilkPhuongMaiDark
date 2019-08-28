@@ -1,0 +1,82 @@
+<?php
+/**
+ * User: linhth
+ * Date: 23/03/2019
+ */
+$root = str_replace('\\','/',dirname(__FILE__));
+$domain = $_SERVER['HTTP_HOST'];
+$script_name = str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
+$domain .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
+$base = "http://" . $domain;
+if (!empty($_SERVER['HTTPS'])) $base = "https://" . $domain;
+define('BASE_URL', $base);
+define('BASE_ADMIN_URL', $base."admin/");
+define('BASE_SCRIPT_NAME', $script_name);
+define('MEDIA_NAME',"public/media/");
+define('MEDIA_PATH',$root.'/'.MEDIA_NAME);
+define('MEDIA_URL',BASE_URL . MEDIA_NAME);
+
+//CONFIG BASE
+define('CMS_VERSION','4.2');
+define('MAINTAIN_MODE',FALSE); //Bảo trì
+define('DEBUG_MODE',FALSE);
+define('CACHE_MODE',FALSE);
+define('CACHE_TIMEOUT_LOGIN',1800);
+
+//CONFIG DB
+define('DB_DEFAULT_HOST','localhost');
+define('DB_DEFAULT_USER','nail_user');
+define('DB_DEFAULT_PASSWORD','nail123&^%$');
+define('DB_DEFAULT_NAME','nails_db');
+
+//CONFIG ZALO
+/*
+define('ZALO_APP_ID_CFG','32911618423593379');
+define('ZALO_APP_SECRET_KEY_CFG','T5Y8HSfJDEj1YnvQUT8U');
+define('ZALO_CAL_BACK',BASE_URL.'auth/loginzalo');
+*/
+
+//CONFIG FB
+define('FB_API','1871629309599123');
+define('FB_SECRET','c68b21210fbb2cfdc177d9f7cc885fad');
+define('FB_VER','v3.2');
+
+//CONFIG GOOGLE
+define('GG_API','442540084330-s4709kmvd2q1lbp09m1169hr7ikrm51t.apps.googleusercontent.com');
+define('GG_SECRET','Yeo9RD28LL_cE0Mu4Vvx07a2');
+define('GG_KEY','AIzaSyAIIdYHIWpe2g9dBBya4ZX8DxWpGzSdmCM');//AIzaSyAhR8OG9cUL1jDfAAc6i35nt5Ki1ZJnykA
+define('GG_CAPTCHA_SITE_KEY','6Ldo1zUUAAAAAODB1tmJw93WgpHchmhzyjXzumEw');
+define('GG_CAPTCHA_SECRET_KEY','6Ldo1zUUAAAAAFtNVYJ_CM4FbqcInUVjD0IaxsW6');
+
+//JWT KEY
+define('JWT_CONSUMER_KEY','sovZABc5GY4y');
+define('JWT_CONSUMER_SECRET','jM6IQ7Vg81KJqGDROWwSzTtNCp20ie');
+define('JWT_CONSUMER_TTL',86400);
+
+//CONFIG MEMCACHE
+/*
+define('MEMCACHE_MODE',FALSE);
+define('MEMCACHE_HOST','127.0.0.1');
+define('MEMCACHE_PORT','11211');
+define('MEMCACHE_PREFIX','prefix_');
+*/
+
+//CONFIG REDIS
+/*
+define('ACTIVE_REDIS',FALSE);
+define('REDIS_HOST','127.0.0.1');
+define('REDIS_PORT','6379');
+define('REDIS_PASS','');
+define('REDIS_PREFIX','prefix_');
+*/
+
+//CONFIG MONGO
+/*
+define('ACTIVE_MONGO',FALSE);
+define('COLLECTION_MONGO','log_db');
+define('DB_MONGO','127.0.0.1');
+define('DB_MONGO_USER','');
+define('DB_MONGO_PORT','27017');
+define('DB_MONGO_PASSWORD','');
+define('DB_MONGO_NAME','database');
+*/

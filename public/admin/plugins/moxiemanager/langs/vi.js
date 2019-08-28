@@ -1,0 +1,1 @@
+tinymce.addI18n('vi',{"Insert file":"ch\u00e8n t\u1ec7p tin","moxiemanager_insert":"ch\u00e8n t\u1ec7p tin"});

@@ -1,0 +1,48 @@
+{
+  "_from": "datatables.net-editor-bs",
+  "_id": "datatables.net-editor-bs@1.6.3",
+  "_inBundle": false,
+  "_integrity": "sha512-Qi9ogpbpEOHMyGVZnZ3VfjzT+mSAlXkr+of9DJTpuNrwr3P5pj2YxxjGOIFatn65AMWXlkZu6TzeQIW8N+NE/w==",
+  "_location": "/datatables.net-editor-bs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "datatables.net-editor-bs",
+    "name": "datatables.net-editor-bs",
+    "escapedName": "datatables.net-editor-bs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-editor-bs/-/datatables.net-editor-bs-1.6.3.tgz",
+  "_shasum": "34a164086e26056edf51ad79eb4c662824d88fb7",
+  "_spec": "datatables.net-editor-bs",
+  "_where": "D:\\Work\\crm-seo-manage\\admin",
+  "author": {
+    "name": "SpryMedia Ltd"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "DataTables Editor - Bootstrap integration",
+  "keywords": [
+    "DataTables",
+    "Editor",
+    "Bootstrap"
+  ],
+  "license": "SEE LICENSE IN License.md",
+  "main": "js/editor.bootstrap.js",
+  "name": "datatables.net-editor-bs",
+  "repository": {
+    "type": "git",
+    "url": "github.com:DataTables/editor-npm-bs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.6.3"
+}

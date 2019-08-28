@@ -1,0 +1,276 @@
+ERROR - 2019-08-23 11:09:44 --> Severity: Warning --> file_get_contents(/var/www/html/silk/config/settings.cfg): failed to open stream: No such file or directory /var/www/html/silk/application/core/APS_Controller.php 234
+ERROR - 2019-08-23 11:09:45 --> Severity: Notice --> Undefined index: title /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:09:45 --> Severity: Notice --> Undefined index: name /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:09:45 --> Severity: error --> Exception: File public/css/fancybox.css is missing /var/www/html/silk/application/libraries/Minify.php 527
+ERROR - 2019-08-23 11:10:37 --> Severity: Warning --> file_get_contents(/var/www/html/silk/config/settings.cfg): failed to open stream: No such file or directory /var/www/html/silk/application/core/APS_Controller.php 234
+ERROR - 2019-08-23 11:10:37 --> Severity: Notice --> Undefined index: title /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:10:37 --> Severity: Notice --> Undefined index: name /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:10:37 --> Severity: error --> Exception: File public/css/fancybox.css is missing /var/www/html/silk/application/libraries/Minify.php 527
+ERROR - 2019-08-23 11:12:04 --> Severity: Notice --> Undefined index: title /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:12:04 --> Severity: Notice --> Undefined index: name /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:12:04 --> Severity: error --> Exception: File public/css/fancybox.css is missing /var/www/html/silk/application/libraries/Minify.php 527
+ERROR - 2019-08-23 11:12:31 --> Severity: Notice --> Undefined index: title /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:12:31 --> Severity: Notice --> Undefined index: name /var/www/html/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:37 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:37 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:38 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:41 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:41 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:41 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:21:41 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:29:34 --> Severity: Parsing Error --> syntax error, unexpected end of file /var/www/silk/application/views/public/default/_layout.php 113
+ERROR - 2019-08-23 11:29:34 --> Severity: Parsing Error --> syntax error, unexpected end of file /var/www/silk/application/views/public/default/_layout.php 113
+ERROR - 2019-08-23 11:29:54 --> Severity: Parsing Error --> syntax error, unexpected end of file /var/www/silk/application/views/public/default/_layout.php 113
+ERROR - 2019-08-23 11:29:54 --> Severity: Parsing Error --> syntax error, unexpected end of file /var/www/silk/application/views/public/default/_layout.php 113
+ERROR - 2019-08-23 11:30:20 --> Severity: Parsing Error --> syntax error, unexpected end of file /var/www/silk/application/views/public/default/_layout.php 88
+ERROR - 2019-08-23 11:30:20 --> Severity: Parsing Error --> syntax error, unexpected end of file /var/www/silk/application/views/public/default/_layout.php 88
+ERROR - 2019-08-23 11:31:23 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:23 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:23 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:23 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:24 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:24 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:24 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:24 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:25 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:25 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:25 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:25 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:25 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:25 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:26 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:26 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:31 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:31 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:37 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:37 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:45 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:45 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:52 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:31:52 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:32:01 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:32:01 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:32:11 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:32:11 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:33:26 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:33:26 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:33:27 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:33:27 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:37:09 --> Query error: Table 'silk.ap_system_menu' doesn't exist - Invalid query: SELECT *
+FROM `ap_system_menu`
+ORDER BY `order` DESC
+ERROR - 2019-08-23 11:37:09 --> Severity: Notice --> Undefined index: title /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 11:37:09 --> Severity: Notice --> Undefined index: name /var/www/silk/application/views/public/default/_layout.php 25
+ERROR - 2019-08-23 13:50:10 --> 404 Page Not Found: 
+ERROR - 2019-08-23 13:54:47 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"}]
+ERROR - 2019-08-23 13:54:47 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"}]
+ERROR - 2019-08-23 13:58:33 --> [{"icon":"","cls":"","link":"\/","type":"other","id":"1","label":"Trang ch\u1ee7"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":""}]
+ERROR - 2019-08-23 13:58:33 --> [{"icon":"","cls":"","link":"\/","type":"other","id":"1","label":"Trang ch\u1ee7"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":""}]
+ERROR - 2019-08-23 13:58:46 --> [{"icon":"","cls":"","link":"\/","type":"other","id":"1","label":"Trang ch\u1ee7"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":"","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 13:58:46 --> [{"icon":"","cls":"","link":"\/","type":"other","id":"1","label":"Trang ch\u1ee7"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":"","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 13:59:17 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"},{"cls":"","label":"Link kh\u00e1c","link":"#","type":"other","id":"0","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 13:59:17 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"},{"cls":"","label":"Link kh\u00e1c","link":"#","type":"other","id":"0","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 13:59:19 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":"","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 13:59:19 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":"","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 13:59:20 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":"","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 13:59:20 --> [{"cls":"","label":"Trang ch\u1ee7","link":"\/","type":"other","id":"0"},{"cls":"","label":"Gi\u1edbi thi\u1ec7u","link":"#","type":"other","id":"0","icon":"","children":[{"cls":"","label":"T\u1ed5ng quan","link":"tong-quan.html","type":"page","id":"0"},{"cls":"","label":"V\u1ec1 ch\u00fang t\u00f4i","link":"ve-chung-toi.html","type":"page","id":"0"}]},{"cls":"","label":"Li\u00ean h\u1ec7","link":"lien-he.html","type":"page","id":"0"}]
+ERROR - 2019-08-23 14:11:08 --> Query error: Unknown column 'order_asc' in 'order clause' - Invalid query: SELECT *
+FROM `ap_agency`
+JOIN `ap_agency_translations` ON `ap_agency`.`id` = `ap_agency_translations`.`id`
+WHERE `ap_agency_translations`.`language_code` = 'vi'
+AND `ap_agency`.`is_status` = 1
+GROUP BY `ap_agency`.`id`
+ORDER BY `order_asc` ASC
+ LIMIT 10
+ERROR - 2019-08-23 14:36:35 --> Severity: Notice --> Undefined property: CI_Config::$cms_language /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:36:35 --> Severity: Notice --> Undefined property: CI_Config::$cms_language /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:36:36 --> Severity: Notice --> Undefined property: CI_Config::$cms_language /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:36:36 --> Severity: Notice --> Undefined property: CI_Config::$cms_language /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:16 --> Severity: Error --> Call to undefined method CI_Loader::items() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:16 --> Severity: Error --> Call to undefined method CI_Loader::items() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:17 --> Severity: Error --> Call to undefined method CI_Loader::items() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:17 --> Severity: Error --> Call to undefined method CI_Loader::items() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:17 --> Severity: Error --> Call to undefined method CI_Loader::items() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:23 --> Severity: Error --> Call to undefined method CI_Loader::item() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:23 --> Severity: Error --> Call to undefined method CI_Loader::item() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:23 --> Severity: Error --> Call to undefined method CI_Loader::item() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:23 --> Severity: Error --> Call to undefined method CI_Loader::item() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 14:37:23 --> Severity: Error --> Call to undefined method CI_Loader::item() /var/www/silk/application/views/public/default/_header.php 74
+ERROR - 2019-08-23 15:20:46 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaa', '')
+ERROR - 2019-08-23 15:20:48 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaa', '')
+ERROR - 2019-08-23 15:20:48 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaa', '')
+ERROR - 2019-08-23 15:20:48 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaa', '')
+ERROR - 2019-08-23 15:20:48 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaa', '')
+ERROR - 2019-08-23 15:22:53 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:56 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:56 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:57 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:58 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:58 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:58 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:58 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:59 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:59 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:59 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:59 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 15:22:59 --> Query error: Duplicate entry '' for key 'ap_newsletter_email_uindex' - Invalid query: INSERT INTO `ap_newsletter` (`fullname`, `phone`) VALUES ('aaaaaaaaa', '0968848712')
+ERROR - 2019-08-23 16:10:14 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/controllers/Page.php 36
+ERROR - 2019-08-23 16:10:14 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/controllers/Page.php 36
+ERROR - 2019-08-23 16:44:25 --> Severity: Notice --> Undefined variable: oneParent /var/www/silk/application/controllers/News.php 64
+ERROR - 2019-08-23 16:44:25 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/News.php 64
+ERROR - 2019-08-23 16:44:25 --> Severity: Notice --> Undefined variable: oneItem /var/www/silk/application/views/public/default/news/category.php 8
+ERROR - 2019-08-23 16:44:25 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/news/category.php 8
+ERROR - 2019-08-23 16:44:42 --> Severity: Notice --> Undefined variable: oneItem /var/www/silk/application/views/public/default/news/category.php 8
+ERROR - 2019-08-23 16:44:42 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/news/category.php 8
+ERROR - 2019-08-23 16:45:05 --> Severity: Notice --> Undefined variable: oneItem /var/www/silk/application/views/public/default/news/category.php 8
+ERROR - 2019-08-23 20:03:34 --> Severity: Notice --> Undefined index: property /var/www/silk/application/controllers/admin/Product.php 321
+ERROR - 2019-08-23 20:03:34 --> Query error: Unknown column 'property' in 'field list' - Invalid query: INSERT INTO `ap_product` (`id`, `model`, `price`, `price_sale`, `sale_up`, `is_status`, `thumbnail`, `property`) VALUES ('0', '', '100000', '100000', '0', '1', '01.jpg', NULL)
+ERROR - 2019-08-23 20:03:42 --> Severity: Notice --> Undefined index: property /var/www/silk/application/controllers/admin/Product.php 321
+ERROR - 2019-08-23 20:03:42 --> Query error: Unknown column 'property' in 'field list' - Invalid query: INSERT INTO `ap_product` (`id`, `model`, `price`, `price_sale`, `sale_up`, `is_status`, `thumbnail`, `property`) VALUES ('0', '', '100000', '100000', '0', '1', '01.jpg', NULL)
+ERROR - 2019-08-23 20:03:46 --> Severity: Notice --> Undefined index: property /var/www/silk/application/controllers/admin/Product.php 321
+ERROR - 2019-08-23 20:03:46 --> Query error: Unknown column 'property' in 'field list' - Invalid query: INSERT INTO `ap_product` (`id`, `model`, `price`, `price_sale`, `sale_up`, `is_status`, `thumbnail`, `property`) VALUES ('0', '', '100000', '100000', '0', '1', '01.jpg', NULL)
+ERROR - 2019-08-23 20:18:54 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:18:54 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:18:57 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:18:57 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:19:42 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:19:42 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:19:49 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:19:49 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:19:52 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 20:19:52 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/controllers/admin/Product.php 201
+ERROR - 2019-08-23 21:05:42 --> Severity: Notice --> Undefined property: stdClass::$email /var/www/silk/application/controllers/admin/Newsletter.php 43
+ERROR - 2019-08-23 21:05:42 --> Severity: Notice --> Undefined property: stdClass::$email /var/www/silk/application/controllers/admin/Newsletter.php 43
+ERROR - 2019-08-23 21:05:42 --> Severity: Notice --> Undefined property: stdClass::$email /var/www/silk/application/controllers/admin/Newsletter.php 43
+ERROR - 2019-08-23 21:05:45 --> Could not find the language line "btn_view"
+ERROR - 2019-08-23 21:05:45 --> Could not find the language line "btn_view"
+ERROR - 2019-08-23 21:05:45 --> Could not find the language line "btn_view"
+ERROR - 2019-08-23 21:05:45 --> Could not find the language line "btn_view"
+ERROR - 2019-08-23 21:05:45 --> Could not find the language line "btn_view"
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:27 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 16
+ERROR - 2019-08-23 21:31:40 --> Severity: Notice --> Trying to get property of non-object /var/www/silk/application/views/public/default/home/index.php 17
+ERROR - 2019-08-23 21:34:46 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 23
+ERROR - 2019-08-23 21:34:46 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 38
+ERROR - 2019-08-23 21:34:46 --> Could not find the language line "text_contact_buy"
+ERROR - 2019-08-23 21:34:46 --> Severity: Error --> Call to undefined function getPropertyById() /var/www/silk/application/views/public/default/product/detail.php 59
+ERROR - 2019-08-23 21:37:48 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 23
+ERROR - 2019-08-23 21:37:48 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 38
+ERROR - 2019-08-23 21:37:48 --> Could not find the language line "text_contact_buy"
+ERROR - 2019-08-23 21:37:48 --> Severity: Error --> Call to undefined function getPropertyById() /var/www/silk/application/views/public/default/product/detail.php 59
+ERROR - 2019-08-23 21:38:09 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 23
+ERROR - 2019-08-23 21:38:09 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 38
+ERROR - 2019-08-23 21:38:09 --> Could not find the language line "text_contact_buy"
+ERROR - 2019-08-23 21:38:09 --> Severity: Error --> Call to undefined function getPropertyById() /var/www/silk/application/views/public/default/product/detail.php 59
+ERROR - 2019-08-23 21:38:23 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 23
+ERROR - 2019-08-23 21:38:23 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 38
+ERROR - 2019-08-23 21:38:23 --> Could not find the language line "text_contact_buy"
+ERROR - 2019-08-23 21:38:23 --> Severity: Error --> Call to undefined function getPropertyById() /var/www/silk/application/views/public/default/product/detail.php 59
+ERROR - 2019-08-23 21:44:00 --> Severity: Error --> Class 'Property_model' not found /var/www/silk/application/controllers/Product.php 26
+ERROR - 2019-08-23 22:00:30 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/category.php 40
+ERROR - 2019-08-23 22:07:32 --> Severity: Error --> Call to undefined function getUrlProdcut() /var/www/silk/application/views/public/default/product/category.php 54
+ERROR - 2019-08-23 22:07:37 --> Severity: Error --> Call to undefined function getUrlProdcut() /var/www/silk/application/views/public/default/product/category.php 54
+ERROR - 2019-08-23 22:07:48 --> Severity: Error --> Call to undefined function getUrlProdcut() /var/www/silk/application/views/public/default/product/category.php 54
+ERROR - 2019-08-23 22:07:57 --> Severity: Error --> Call to undefined function getUrlProdcut() /var/www/silk/application/views/public/default/product/category.php 54
+ERROR - 2019-08-23 22:08:36 --> Severity: Error --> Call to undefined function getUrlProdcut() /var/www/silk/application/views/public/default/product/category.php 54
+ERROR - 2019-08-23 22:10:52 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 23
+ERROR - 2019-08-23 22:10:52 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/silk/application/views/public/default/product/detail.php 38
+ERROR - 2019-08-23 22:10:52 --> Could not find the language line "text_contact_buy"
+ERROR - 2019-08-23 22:10:52 --> Severity: Error --> Call to undefined function getPropertyById() /var/www/silk/application/views/public/default/product/detail.php 59
+ERROR - 2019-08-23 22:46:42 --> 404 Page Not Found: 

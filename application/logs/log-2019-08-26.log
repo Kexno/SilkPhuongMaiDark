@@ -1,0 +1,37 @@
+ERROR - 2019-08-26 10:21:42 --> Severity: Notice --> Array to string conversion /var/www/silk/application/views/public/default/product/detail.php 112
+ERROR - 2019-08-26 10:29:09 --> Severity: Warning --> json_decode() expects parameter 1 to be string, object given /var/www/silk/application/views/public/default/product/detail.php 12
+ERROR - 2019-08-26 10:33:33 --> Severity: Warning --> json_decode() expects parameter 1 to be string, object given /var/www/silk/application/views/public/default/product/detail.php 12
+ERROR - 2019-08-26 18:59:30 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/models/Product_model.php 45
+ERROR - 2019-08-26 18:59:30 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/models/Product_model.php 45
+ERROR - 2019-08-26 18:59:49 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/models/Product_model.php 45
+ERROR - 2019-08-26 18:59:49 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/models/Product_model.php 45
+ERROR - 2019-08-26 18:59:58 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/models/Product_model.php 45
+ERROR - 2019-08-26 18:59:58 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /var/www/silk/application/models/Product_model.php 45
+ERROR - 2019-08-26 19:00:21 --> Severity: Error --> Call to undefined method CI_DB_mysqli_result::get() /var/www/silk/application/models/Product_model.php 45
+ERROR - 2019-08-26 19:00:30 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `is_status` = 1' at line 2 - Invalid query: SELECT MAX(`price`) AS `price`
+WHERE `is_status` = 1
+ERROR - 2019-08-26 19:02:49 --> Query error: Unknown column 'min' in 'field list' - Invalid query: SELECT MAX(`min`) AS `min`
+FROM `ap_product`
+WHERE `is_status` = 1
+ERROR - 2019-08-26 19:02:54 --> Query error: Unknown column 'min' in 'field list' - Invalid query: SELECT MAX(`min`) AS `min`
+FROM `ap_product`
+WHERE `is_status` = 1
+ERROR - 2019-08-26 19:03:59 --> Query error: Unknown column 'parent_id' in 'where clause' - Invalid query: SELECT MAX(`price`) AS `price`
+FROM `ap_product`
+WHERE `is_status` = 1
+AND `parent_id` = '6'
+ERROR - 2019-08-26 19:04:14 --> Query error: Unknown column 'category_id' in 'where clause' - Invalid query: SELECT MAX(`price`) AS `price`
+FROM `ap_product`
+WHERE `is_status` = 1
+AND `category_id` = '6'
+ERROR - 2019-08-26 19:04:46 --> Query error: Unknown column 'category_id' in 'where clause' - Invalid query: SELECT MAX(`price`) AS `price`
+FROM `ap_product`
+WHERE `is_status` = 1
+AND `category_id` = '6'
+ERROR - 2019-08-26 19:21:58 --> Query error: Unknown column 'category_id' in 'where clause' - Invalid query: SELECT *
+FROM `ap_product`
+JOIN `ap_product_translations` ON `ap_product`.`id`=`ap_product_translations`.`id`
+WHERE `price` >= '2188834'
+AND `price` <= '7777777'
+AND `is_status` = 1
+AND `category_id` = '6'

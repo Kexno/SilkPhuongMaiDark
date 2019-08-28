@@ -1,0 +1,4 @@
+ERROR - 2019-08-06 15:37:20 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-08-06 15:37:20 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
+ERROR - 2019-08-06 16:05:23 --> Severity: Notice --> Undefined index: description_footer /var/www/tomita-mart/application/views/public/default/_footer.php 33
+ERROR - 2019-08-06 16:05:23 --> Severity: Notice --> Undefined index: slogan /var/www/tomita-mart/application/views/public/default/_footer.php 34
